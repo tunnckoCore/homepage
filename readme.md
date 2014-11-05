@@ -7,7 +7,7 @@
 - [Tests](#tests)
 - [API docs](#api)
 - [Command-line](#cli)
-- [Related](#related)
+- [Related projects](#related)
 - [Authors & Contributors](#authors--contributors)
 - [License](./license.md)
 - [History](./history.md)
