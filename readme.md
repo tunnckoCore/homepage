@@ -8,7 +8,7 @@
 - [API docs](#api)
 - [Command-line](#cli)
 - [Related](#related)
-- [Authors & Contributors](#authors--contributors-)
+- [Authors & Contributors](#authors--contributors)
 - [License](./license.md)
 - [History](./history.md)
 
