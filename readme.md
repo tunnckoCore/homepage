@@ -76,14 +76,12 @@ $ homepage --help
 **Example usage**
 ```
 $ homepage <name> [promise]
-
-$ homepage mocha
-$ # open https://github.com/mochajs/mocha
-$ homepage gulp
-$ homepage lodash -p
-$ homepage --promise --name assemble
-$ homepage -n express
-$ homepage -n koa -p # open https://github.com/koajs/koa
+$ homepage mocha                        # github.com/mochajs/mocha
+$ homepage -n koa -p                    # github.com/koajs/koa
+$ homepage gulp                         # gulpjs.com
+$ homepage lodash -p                    # lodash.com
+$ homepage --promise --name assemble    # assemble.io
+$ homepage -n express                   # expressjs.com
 ```
 
 
