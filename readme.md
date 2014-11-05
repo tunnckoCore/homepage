@@ -2,7 +2,7 @@
 > description
 
 ## Shortcuts
-- [Install](#install)
+- [Install](#install-)
 - [Usage](#usage)
 - [Tests](#tests)
 - [API docs](#api)
@@ -76,12 +76,14 @@ $ homepage --help
 **Example usage**
 ```
 $ homepage <name> [promise]
+
 $ homepage mocha
+$ # open https://github.com/mochajs/mocha
 $ homepage gulp
 $ homepage lodash -p
 $ homepage --promise --name assemble
 $ homepage -n express
-$ homepage -n koa -p
+$ homepage -n koa -p # open https://github.com/koajs/koa
 ```
 
 
