@@ -7,8 +7,10 @@
 - [Tests](#tests)
 - [API docs](#api)
 - [Command-line](#cli)
+- [Related](#related)
 - [Authors & Contributors](#authors--contributors-)
-- [License](#license-)
+- [License](./license.md)
+- [History](./history.md)
 
 
 ## Install [![Nodei.co stats][npmjs-install]][npmjs-url]
@@ -21,7 +23,7 @@ $ homepage --help
 
 
 ## Usage
-> Also, you can see [bin/cli.js](./bin/cli.js), [tests](./test/test.js) for more example usages
+> You can also see [bin/cli.js](./bin/cli.js), [tests](./test/test.js) for more example usages
 
 **promise example (open self)**
 ```js
@@ -43,7 +45,7 @@ homepage('mocha', function(err, res) {
 
 
 ## Tests
-> Also, you can use `make test`
+> You can also use `make test`
 
 ```
 $ npm test
