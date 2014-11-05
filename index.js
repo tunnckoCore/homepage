@@ -13,7 +13,7 @@
 var homepage = require('./lib/homepage');
 
 /**
- * Open NPM package's homepage url, from package.json from registry
+ * Open NPM package/module homepage url from NPM registry
  * @param  {String} `packageName`
  * @param  {Object} `options` optional
  * @param  {Function} `callback` optional

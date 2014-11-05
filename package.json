@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "version": "0.0.1",
-  "description": "long description",
+  "description": "Open NPM package/module homepage url from NPM registry",
   "main": "index.js",
   "scripts": {
     "lint": "npm install && jshint bin/*.js lib/*.js test/*.js index.js",
