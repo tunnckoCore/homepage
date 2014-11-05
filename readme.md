@@ -1,5 +1,5 @@
 # homepage [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url] [![Coveralls][coveralls-shields]][coveralls-url]
-> Open NPM package/module homepage url from NPM registry
+> Open NPM package/module homepage url from NPM registry.
 
 ## Shortcuts
 - [Install](#install-)
