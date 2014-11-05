@@ -1,0 +1,54 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "long description",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm install && jshint bin/*.js lib/*.js test/*.js index.js",
+    "test": "npm run lint && mocha",
+    "test-cov": "npm test && istanbul cover _mocha",
+    "test-travis": "npm test && istanbul cover _mocha --report lcovonly"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore",
+    "twitter": "https://twitter.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/homepage.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "opn": "*",
+    "oboe": "*",
+    "meow": "*",
+    "native-or-another": "*"
+  },
+  "devDependencies": {
+    "coveralls": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": ">=2",
+    "mocha-lcov-reporter": "*",
+    "micropromise": "*"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/homepage/blob/master/license.md"
+  }],
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.4.28"
+  },
+  "bin": {
+    "homepage": "bin/cli.js",
+    "home-page": "bin/cli.js",
+    "npmpage": "bin/cli.js",
+    "npm-page": "bin/cli.js",
+    "npm-open": "bin/cli.js",
+    "pkg-page": "bin/cli.js"
+  },
+  "preferGlobal": "true"
+}
