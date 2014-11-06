@@ -1,5 +1,6 @@
 # homepage [![NPM version][npmjs-shields]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url] [![Coveralls][coveralls-shields]][coveralls-url]
-> Open NPM package/module homepage url from NPM registry.
+> Open NPM package/module homepage url from NPM registry.  
+Support CLI and Promises
 
 ## Shortcuts
 - [Install](#install-)
@@ -78,12 +79,12 @@ $ homepage --help
 **Example usage**
 ```
 $ homepage <name> [promise]
-$ homepage mocha                        # github.com/mochajs/mocha
-$ homepage -n koa -p                    # github.com/koajs/koa
-$ homepage gulp                         # gulpjs.com
-$ homepage lodash -p                    # lodash.com
-$ homepage --promise --name assemble    # assemble.io
-$ homepage -n express                   # expressjs.com
+$ homepage mocha                        # open github.com/mochajs/mocha
+$ homepage -n koa -p                    # open github.com/koajs/koa
+$ homepage gulp                         # open gulpjs.com
+$ homepage lodash -p                    # open lodash.com
+$ homepage --promise --name assemble    # open assemble.io
+$ homepage -n express                   # open expressjs.com
 ```
 
 

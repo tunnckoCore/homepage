@@ -13,7 +13,9 @@
 var homepage = require('./lib/homepage');
 
 /**
- * Open NPM package/module homepage url from NPM registry
+ * Open NPM package/module homepage url from NPM registry.
+ * Support CLI and Promises.
+ * 
  * @param  {String} `packageName`
  * @param  {Object} `options` optional
  * @param  {Function} `callback` optional

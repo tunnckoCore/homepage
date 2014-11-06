@@ -1,7 +1,7 @@
 {
   "name": "homepage",
   "version": "0.0.1",
-  "description": "Open NPM package/module homepage url from NPM registry",
+  "description": "Open NPM package/module homepage url from NPM registry. Support CLI and Promises",
   "main": "index.js",
   "scripts": {
     "lint": "npm install && jshint bin/*.js lib/*.js test/*.js index.js",
@@ -44,11 +44,10 @@
   },
   "bin": {
     "homepage": "bin/cli.js",
-    "home-page": "bin/cli.js",
-    "npmpage": "bin/cli.js",
+    "npmopen": "bin/cli.js",
     "npm-page": "bin/cli.js",
-    "npm-open": "bin/cli.js",
-    "pkg-page": "bin/cli.js"
+    "pkgopen": "bin/cli.js",
+    "pkg-open": "bin/cli.js"
   },
   "preferGlobal": "true"
 }
