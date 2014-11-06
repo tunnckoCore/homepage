@@ -1,3 +1,7 @@
+## v1.0.0 / November 6, 2014
+- first: Release v1.0.0
+- can't use Travis for check the build, but all is okey, test it
+
 ## v0.0.1 / November 5, 2014
 - initial commits
 

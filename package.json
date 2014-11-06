@@ -1,13 +1,14 @@
 {
   "name": "homepage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Open NPM package/module homepage url from NPM registry. Support CLI and Promises",
   "main": "index.js",
   "scripts": {
     "lint": "npm install && jshint bin/*.js lib/*.js test/*.js index.js",
     "test": "npm run lint && mocha",
-    "test-cov": "npm test && istanbul cover _mocha",
-    "test-travis": "npm test && istanbul cover _mocha --report lcovonly"
+    "test-cov": "npm run lint && istanbul cover _mocha",
+    "test-travis": "npm run lint && istanbul cover _mocha --report lcovonly",
+    "clean": "rm -rf node_modules coverage"
   },
   "author": {
     "name": "Charlike Make Reagent",
@@ -19,7 +20,43 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/homepage.git"
   },
-  "keywords": [],
+  "keywords": [
+    "github",
+    "oboe",
+    "stream",
+    "streaming",
+    "npm",
+    "npm registry",
+    "registry",
+    "open",
+    "homepage",
+    "url",
+    "home",
+    "opener",
+    "faster",
+    "fast",
+    "util",
+    "utils",
+    "page open",
+    "package homepage",
+    "module homepage",
+    "module open",
+    "package open",
+    "pkg open",
+    "pkg",
+    "cli",
+    "helper",
+    "support",
+    "cli util",
+    "cli helper",
+    "cli support",
+    "cli promise",
+    "promise",
+    "promises",
+    "promises-aplus",
+    "Promises/A+"
+
+  ],
   "dependencies": {
     "opn": "*",
     "oboe": "*",
