@@ -27,17 +27,17 @@ module.exports = function homepageOpen(packageName, options, callback) {
   }
 
   if (typeof packageName === 'object') {
-    callback = options
-    options = {};
+    if (!callback && typeof options === 'function') {
+      callback = options
+      options = {};
+    }
     options.promise = packageName.promise || false
     options.headers = packageName.headers || {}
-    packageName = packageName.name || 'homepage'
+    options.name = packageName.name || 'homepage'
+    packageName = options.name
   }
 
-  if (!callback && typeof options === 'function') {
-    callback = options
-    options = {};
-  }
+  
 
   options = typeof options === 'object' ? options : {}
 

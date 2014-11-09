@@ -80,10 +80,6 @@
     "npm": ">= 1.4.28"
   },
   "bin": {
-    "homepage": "bin/cli.js",
-    "npmopen": "bin/cli.js",
-    "npm-page": "bin/cli.js",
-    "pkgopen": "bin/cli.js",
     "pkg-open": "bin/cli.js"
   },
   "preferGlobal": "true"

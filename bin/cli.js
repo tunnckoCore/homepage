@@ -25,13 +25,13 @@ var cli = meow({
     '  -p | --promise        Handle response with promise - true/false or empty',
     '',
     'Usage',
-    '  homepage <name> [promise]',
-    '  homepage mocha',
-    '  homepage gulp',
-    '  homepage lodash -p',
-    '  homepage --promise --name assemble',
-    '  homepage -n express',
-    '  homepage -n koa -p',
+    '  pkg-open <name> [promise]',
+    '  pkg-open mocha',
+    '  pkg-open gulp',
+    '  pkg-open lodash -p',
+    '  pkg-open --promise --name assemble',
+    '  pkg-open -n express',
+    '  pkg-open -n koa -p',
     '',
   ].join('\n')
 })
@@ -39,20 +39,20 @@ var cli = meow({
 var pkgn = cli.input[0] || cli.flags.n || cli.flags.name;
 var prom = cli.input[1] || cli.flags.p || cli.flags.promise;
 
-var opts = {
-  name: pkgn,
-  promise: prom
-}
+var opts = {};
 
-if (prom) {
-  homepage(opts).then(console.log).catch(console.error)
+opts.name = pkgn || 'homepage'
+opts.prom = prom || false
+
+if (opts.prom) {
+  homepage(opts)
+    .then(console.log)
+    .catch(console.error)
   return;
 }
 
 homepage(opts, function(err, res) {
-  if (err) {
-    console.error(err)
-    return;
-  }
-  console.log(res)
+  console.log(err, res)
+  return;
 })
+return;

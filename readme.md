@@ -19,7 +19,7 @@ Support CLI and Promises
 
 ```
 $ npm install homepage -g
-$ homepage --help
+$ pkg-open --help
 ```
 
 
@@ -65,7 +65,7 @@ $ npm test
 
 ## CLI
 ```
-$ homepage --help
+$ pkg-open --help
 ```
 
 ### Flags
@@ -78,13 +78,13 @@ $ homepage --help
 
 **Example usage**
 ```
-$ homepage <name> [promise]
-$ homepage mocha                        # open github.com/mochajs/mocha
-$ homepage -n koa -p                    # open github.com/koajs/koa
-$ homepage gulp                         # open gulpjs.com
-$ homepage lodash -p                    # open lodash.com
-$ homepage --promise --name assemble    # open assemble.io
-$ homepage -n express                   # open expressjs.com
+$ pkg-open <name> [promise]
+$ pkg-open mocha                        # open github.com/mochajs/mocha
+$ pkg-open -n koa -p                    # open github.com/koajs/koa
+$ pkg-open gulp                         # open gulpjs.com
+$ pkg-open lodash -p                    # open lodash.com
+$ pkg-open --promise --name assemble    # open assemble.io
+$ pkg-open -n express                   # open expressjs.com
 ```
 
 
